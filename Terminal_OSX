@@ -1,0 +1,9 @@
+REM Title: Terminal
+REM Author: xepexted
+REM Description: Opens MacOS Terminal
+REM Target: macOS 11.0+
+REM
+GUI SPACE
+DELAY 500
+STRING terminal
+ENTER
