@@ -1,9 +1,0 @@
-REM Title: Oh_Dear_OSX
-REM Author: xepexted|texabyte
-REM Description: makes computer say "Oh Dear, so sigma"
-REM
-GUI SPACE
-STRING terminal
-ENTER
-STRING say Oh Dear, so sigma
-ENTER
