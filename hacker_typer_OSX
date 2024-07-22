@@ -7,7 +7,7 @@ DELAY 1000
 STRING terminal
 ENTER
 DELAY 50
-STRING open 'https://geektyper.com/plain/'; exit
+STRING open 'https://geektyper.com/plain/'
 ENTER
 DELAY 500
 F11
