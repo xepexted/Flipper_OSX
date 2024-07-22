@@ -4,7 +4,9 @@ REM Description: increases volume by 3 and then makes computer say "Oh Dear, so 
 REM
 GUI SPACE
 STRING terminal
+ENTER
 F12
 F12
 F12
 STRING say Oh Dear, so sigma
+ENTER
