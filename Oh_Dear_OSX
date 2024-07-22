@@ -1,0 +1,10 @@
+REM Title: Oh_Dear_OSX
+REM Author: xepexted
+REM Description: increases volume by 3 and then makes computer say "Oh Dear, so sigma"
+REM
+GUI SPACE
+STRING terminal
+F12
+F12
+F12
+STRING say Oh Dear, so sigma
