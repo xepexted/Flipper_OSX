@@ -1,12 +1,11 @@
 REM Opens a harmless website and types like a hacker - with a faster delay
 REM trexabyte|xepexted
 REM
-DELAY 1500
-GUI r
-DELAY 1000
+GUI SPACE
+DELAY 500
 STRING terminal
 ENTER
-DELAY 50
+DELAY 1000
 STRING open 'https://geektyper.com/plain/'
 ENTER
 DELAY 500
