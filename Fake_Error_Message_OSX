@@ -1,0 +1,11 @@
+REM Title: Fake_Error_Message_OSX
+REM Authors: xepexted|texabyte
+REM Description: Opens up terminal and displays a fake error message
+REM Category: Prank
+REM Target: macOS 11.0+
+REM
+GUI SPACE
+STRING terminal
+ENTER
+STRING osascript -e 'display dialog "System error detected. Please restart your computer." buttons {"OK"} default button 1 with icon stop giving up after 10'
+ENTER
