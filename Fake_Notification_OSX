@@ -2,6 +2,7 @@ REM Title: Fake_Notification_OSX
 REM Authors: xepexted|texabyte
 REM Description: Makes a fake notification
 REM Target: macos 11.0+
+REM Disclaimer: may perform better using .zsh
 REM
 GUI SPACE
 DELAY 500
