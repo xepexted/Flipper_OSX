@@ -1,0 +1,12 @@
+REM Title: Fake_Shutdown_Message_OSX
+REM Author: Texabte
+REM Description: Opens up terminal and displays a fake shutdown message
+REM Target: macOS 11.0+
+REM
+GUI SPACE
+DELAY 500
+STRING terminal
+ENTER
+DELAY 500
+STRING osascript -e 'display dialog "Your system will shut down in 1 minute to install important updates. Please save your work." buttons {"OK"} default button 1 with icon caution'
+ENTER
