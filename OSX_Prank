@@ -5,6 +5,7 @@ REM Target: macOS 11.0+
 REM
 DELAY 500
 GUI SPACE
+DELAY 500
 STRING terminal
 ENTER
 DELAY 500
@@ -14,12 +15,15 @@ DELAY 1000
 STRING Hello! This is your friendly neighborhood rubber duck!
 DELAY 1000
 GUI SPACE
+DELAY 500
 STRING terminal
 ENTER
+DELAY 500
 STRING open -a "Calculator"
 ENTER
 DELAY 500
 GUI SPACE
+DELAY 500
 STRING terminal
 ENTER
 DELAY 500
