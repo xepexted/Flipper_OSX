@@ -1,0 +1,12 @@
+REM Title: CAPS_Prank_OSX
+REM Authors: xepexted|texabyte
+REM Description: turns Caps lock on and off every two seconds
+REM Target: macOS 11.0+
+REM 
+DELAY 1000
+LOOP
+  CAPSLOCK
+  DELAY 2000
+  CAPSLOCK
+  DELAY 2000
+ENDLOOP
