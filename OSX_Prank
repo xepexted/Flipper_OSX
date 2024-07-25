@@ -1,0 +1,35 @@
+REM Title: OSX_Prank
+REM Authors: xepexted|texabyte
+REM Description: Open a series of apps and display messages
+REM Target: macOS 11.0+
+REM
+DELAY 500
+STRING open -a "Safari"
+ENTER
+DELAY 1000
+STRING osascript -e 'tell application "Safari" to display dialog "Hello! This is your friendly neighborhood rubber duck!"'
+ENTER
+DELAY 1000
+STRING open -a "Calculator"
+ENTER
+DELAY 500
+STRING osascript -e 'tell application "Calculator" to display dialog "Time to crunch some numbers!"'
+ENTER
+DELAY 1000
+STRING open -a "TextEdit"
+ENTER
+DELAY 500
+STRING osascript -e 'tell application "TextEdit" to display dialog "Time to jot down some ideas!"'
+ENTER
+DELAY 1000
+STRING say "Hello! This is a friendly message from your USB rubber duck!"
+ENTER
+DELAY 2000
+STRING osascript -e 'tell application "TextEdit" to quit'
+ENTER
+DELAY 1000
+STRING osascript -e 'tell application "Calculator" to quit'
+ENTER
+DELAY 1000
+STRING osascript -e 'tell application "Safari" to quit'
+ENTER
