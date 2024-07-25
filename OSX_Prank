@@ -32,14 +32,3 @@ ENTER
 DELAY 1000
 STRING osascript -e 'display notification "Click on the Calculator window" with title "Notification"'
 ENTER
-DELAY 500
-GUI SPACE
-DELAY 500
-STRING terminal
-ENTER
-DELAY 1000
-STRING osascript -e 'tell application "Calculator" to quit'
-ENTER
-DELAY 1000
-STRING osascript -e 'tell application "Safari" to quit'
-ENTER
