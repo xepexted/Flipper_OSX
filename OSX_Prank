@@ -6,25 +6,19 @@ REM
 DELAY 500
 GUI SPACE
 DELAY 500
-STRING terminal
+STRING Safari
 ENTER
 DELAY 500
-STRING open -a "Safari"
-ENTER
-DELAY 1000
-STRING Hello! This is your friendly neighborhood rubber duck!
-DELAY 1000
+STRING Hello! This is your friendly neighborhood Rubber Duck!
+DELAY 500
 GUI SPACE
 DELAY 500
-STRING terminal
-ENTER
-DELAY 500
-STRING open -a "Calculator"
+STRING Calculator
 ENTER
 DELAY 500
 GUI SPACE
 DELAY 500
-STRING terminal
+STRING Terminal
 ENTER
 DELAY 500
 STRING osascript -e 'tell application "Calculator" to display dialog "Time to crunch some numbers!"'
