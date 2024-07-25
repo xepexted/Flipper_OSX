@@ -1,0 +1,13 @@
+REM Title: screenshot_OSX
+REM Authors: xepexted|texabyte
+REM Description: takes a screen shot 
+REM Target: macOS 11.0+
+REM Disclaimer: must have terminal be able to access camera or this will not work. find this in system settings
+REM
+GUI SPACE
+DELAY 500
+STRING terminal
+ENTER
+DELAY 500
+STRING screencapture ~/Desktop/screenshot.png
+ENTER
