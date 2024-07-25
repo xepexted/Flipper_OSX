@@ -26,5 +26,5 @@ ENTER
 DELAY 1000
 GUI SPACE
 DELAY 1000
-String Calculator
+STRING Calculator
 ENTER
