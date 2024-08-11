@@ -1,0 +1,16 @@
+REM Title: Fake phishing attack EDUCATION
+REM Authors: xepexted||texabyte
+REM Descriotion: Opens up a fake login portal on your default browser
+REM Target: macOS 11.0+
+DELAY 500
+GUI SPACE
+DELAY 500
+STRING terminal
+ENTER
+DELAY 500
+STRING mkdir -p ~/Documents/PhishingSimulation
+ENTER
+STRING echo '<html><head><style>body {font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f4f4f4;} form {background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);} h2 {margin-bottom: 20px;} input[type="text"], input[type="password"] {width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px;} input[type="submit"] {width: 100%; padding: 10px; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer;} input[type="submit"]:hover {background-color: #0056b3;}</style></head><body><form><h2>Please login</h2><input type="text" placeholder="Username"><input type="password" placeholder="Password"><input type="submit" value="Login"></form></body></html>' > ~/Documents/PhishingSimulation/fake_login.html
+ENTER
+STRING open ~/Documents/PhishingSimulation/fake_login.html
+ENTER
