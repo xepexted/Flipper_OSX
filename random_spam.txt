@@ -1,0 +1,11 @@
+REM Title: random_spam
+REM Authors: xepexted || texabyte
+REM: Description: Spams random text in the terminal as a fun prank
+DELAY 500
+GUI SPACE
+DELAY 300
+STRING Terminal
+ENTER
+DELAY 500
+STRING clear; while :; do printf "$(date +%T) "; echo "$(openssl rand -hex 12)"; sleep 0.1; done
+ENTER
