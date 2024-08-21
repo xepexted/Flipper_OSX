@@ -1,0 +1,12 @@
+REM Title: Key input error OSX
+REM Authors: xepexted || texabyte
+REM Description: At random points, your key inputs are invalid
+REM Target: macOS 11.0+
+DELAY 500
+GUI SPACE
+DELAY 300
+STRING Terminal
+ENTER
+DELAY 500
+STRING while true; do osascript -e 'tell application "System Events" to key code 57'; sleep 1; done
+ENTER
