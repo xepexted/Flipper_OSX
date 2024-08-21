@@ -1,6 +1,6 @@
 REM Title: random_spam
 REM Authors: xepexted || texabyte
-REM: Description: Spams random text in the terminal as a fun prank
+REM Description: Spams random text in the terminal as a fun prank
 DELAY 500
 GUI SPACE
 DELAY 300
