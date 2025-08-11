@@ -9,4 +9,5 @@ STRING terminal
 ENTER
 DELAY 500
 STRING osascript -e 'display dialog "Your system will shut down in 1 minute to install important updates. Please save your work." buttons {"OK"} default button 1 with icon caution'
+GUI H
 ENTER
